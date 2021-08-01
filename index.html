@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">>
+    <title>Title</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./images/favicon.ico" type="image/x-icon">
+</head>
+<body>
+
+<div class="container">
+    <h1>
+       Box Shadow
+    </h1>
+    <div class="generator">
+        <div class="range-blocks">
+            <div class="range-block">
+                <input type="range" id= 'r1' value="0" max="50">
+            </div>
+            <div class="range-block">
+                <div class="line">
+                    <p>Horizontal Shadow Length </p>
+                    <div class="slider"></div>
+                </div>
+                <input type="range" id= "offsetX">
+
+            </div>
+            <div class="range-block">
+                <div class="line">
+                    <p>Vertical Shadow</p>
+                    <div class="vertical"></div>
+                </div>
+                <input type="range" id= "offsetY">
+            </div>
+            <div class="range-block">
+                <div class="line">
+                    <p>Blur Radius</p>
+                    <div class="blurRa"></div>
+                </div>
+                <input type="range" id= "blur">
+            </div>
+            <div class="range-block">
+                <div class="line">
+                    <p>Spread Radius</p>
+                    <div class="spreadEd"></div>
+                </div>
+                <input type="range" id= "spread">
+            </div>
+            <div class="range-block gradient">
+                <p class="switch">Shadow Color</p>
+                <input type="color" id= "color">
+            </div>
+            <div class="switch range-block">
+                <p>Inset</p>
+                <label>
+                    <input type="radio" class="inset private" name="type" checked>
+                </label>
+                <label>
+                    <input type="radio" class="outset private" name="type">
+                </label>
+            </div>
+        </div>
+        <div class="main-block">
+            <div class="box"></div>
+            <div class="out"></div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--<div id="append-div"></div>-->
+
+<!--<input type="range" class="border-radius" max="50" value =  '0'>-->
+<!--<input type="range" class="offsetX" value ='0'>-->
+<!--<input type="range" class="offsetY" value = '0'>-->
+<!--<input type="range" class="blur" value = '0'>-->
+<!--<input type="range" class="spread" value = '0'>-->
+
+
+
+<!--<input type="radio" class="outset" name="type" checked>-->
+<!--<input type="radio" class="inset" name="type">-->
+
+
+<!--z-->
+
+<!--<div class="out">-->
+<!--    Result-->
+<!--</div>-->
+
+<script src="./script.js"></script>
+</body>
+</html>
